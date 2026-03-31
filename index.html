@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TAP Yuvasangh</title>
 
   <link rel="apple-touch-icon" sizes="180x180" href="https://www.tapyuva.com/icon.png">
@@ -9,9 +10,75 @@
   <link rel="apple-touch-icon" sizes="152x152" href="https://www.tapyuva.com/icon.png">
   <link rel="apple-touch-icon" sizes="120x120" href="https://www.tapyuva.com/icon.png">
 
-  <meta http-equiv="refresh" content="0; url=https://sites.google.com/view/tapyuvasangh/home">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #f0f4f8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 20px;
+      padding: 40px 30px;
+      text-align: center;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      max-width: 360px;
+      width: 100%;
+    }
+    .logo {
+      width: 100px;
+      height: 100px;
+      border-radius: 22px;
+      margin: 0 auto 20px;
+      display: block;
+    }
+    h1 {
+      font-size: 22px;
+      color: #1a1a2e;
+      margin-bottom: 8px;
+    }
+    p {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 30px;
+      line-height: 1.5;
+    }
+    .btn {
+      display: block;
+      background: #1a73e8;
+      color: white;
+      text-decoration: none;
+      padding: 16px 24px;
+      border-radius: 12px;
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 16px;
+    }
+    .hint {
+      font-size: 12px;
+      color: #999;
+      margin-top: 20px;
+      padding-top: 20px;
+      border-top: 1px solid #eee;
+    }
+  </style>
 </head>
 <body>
-  <p>Redirecting to TAP Yuvasangh...</p>
+  <div class="card">
+    <img class="logo" src="https://www.tapyuva.com/icon.png" alt="TAP Yuvasangh Logo">
+    <h1>TAP Yuvasangh</h1>
+    <p>Welcome to the TAP Yuvasangh Intranet. Login with your Gmail to continue.</p>
+    <a class="btn" href="https://sites.google.com/view/tapyuvasangh/home">
+      Open TAP Yuvasangh →
+    </a>
+    <p class="hint">
+      📱 iPhone users: Tap the Share button below, then "Add to Home Screen" to save this app with the TAP logo.
+    </p>
+  </div>
 </body>
 </html>
